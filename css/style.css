@@ -22,3 +22,20 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.about,
+.products,
+.contact {
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about h2,
+.products h2,
+.contact h2 {
+    color: #2c1810;
+}
+
+.products ul {
+    list-style: square;
+}
