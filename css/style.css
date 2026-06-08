@@ -155,3 +155,6 @@ html {
         transform: translateY(0);
     }
 }
+html {
+    scroll-behavior: smooth;
+}
