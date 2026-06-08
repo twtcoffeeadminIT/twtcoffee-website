@@ -103,3 +103,18 @@ header {
 
     border-radius: 8px;
 }
+
+.about,
+.products,
+.contact,
+.vision {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 80px 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
