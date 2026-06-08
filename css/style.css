@@ -65,3 +65,41 @@ header {
     text-align: center;
     padding: 30px 20px;
 }
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: #f5f5f5;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 12px 25px;
+
+    background: #2c1810;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+}
