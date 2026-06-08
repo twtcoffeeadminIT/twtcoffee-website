@@ -114,7 +114,21 @@ header {
 
     padding: 80px 30px;
 }
+nav {
+    margin-top: 15px;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
 html {
     scroll-behavior: smooth;
 }
