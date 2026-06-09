@@ -40,13 +40,13 @@ footer {
     list-style: square;
 }
 nav {
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 nav a {
     color: orange;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 15px;
     font-weight: bold;
 }
 
