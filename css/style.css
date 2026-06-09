@@ -1,72 +1,63 @@
+/* GENERAL */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
+
+/* HEADER */
 
 header {
     background-color: #de6316;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px 20px;
 }
 
-.hero {
-    text-align: center;
-    padding: 100px 20px;
+/* LOGO */
+
+.logo {
+    width: 70px;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px;
 }
 
-footer {
-    background-color: #2c1810;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-.about,
-.products,
-.contact {
-    padding: 50px;
-    max-width: 1000px;
-    margin: auto;
+/* WEBSITE TITLE */
+
+header h1 {
+    margin: 5px 0;
+    font-size: 2rem;
 }
 
-.about h2,
-.products h2,
-.contact h2 {
-    color: #2c1810;
-}
+/* NAVIGATION */
 
-.products ul {
-    list-style: square;
-}
 nav {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 nav a {
-    color: orange;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-weight: bold;
+    font-weight: 600;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #ffd700;
 }
 
-.vision {
-    padding: 50px;
-    max-width: 1000px;
-    margin: auto;
-}
-header {
-    background-color: #de6316;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
+/* HERO SECTION */
+
 .hero {
-    min-height: 80vh;
+    min-height: 60vh;
 
     display: flex;
     justify-content: center;
@@ -74,75 +65,85 @@ header {
 
     text-align: center;
 
-    background: #f5f5f5;
+    padding: 40px 20px;
+
+    background-color: #f5f5f5;
+}
+
+.hero-content {
+    animation: fadeIn 1.2s ease;
 }
 
 .hero-content h2 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    color: #111;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     max-width: 700px;
     margin: auto;
+    color: #444;
 }
+
+/* CTA BUTTON */
 
 .btn {
     display: inline-block;
 
     margin-top: 25px;
 
-    padding: 12px 25px;
+    padding: 12px 24px;
 
-    background: #2c1810;
+    background-color: #2c1810;
 
     color: white;
 
     text-decoration: none;
 
     border-radius: 8px;
+
+    transition: 0.3s ease;
 }
+
+.btn:hover {
+    background-color: #4a2c1f;
+    transform: translateY(-2px);
+}
+
+/* CONTENT SECTIONS */
 
 .about,
 .products,
 .contact,
 .vision {
     max-width: 1200px;
-
     margin: auto;
-
     padding: 80px 30px;
 }
-nav {
-    margin-top: 15px;
+
+.about h2,
+.products h2,
+.contact h2,
+.vision h2 {
+    color: #2c1810;
 }
 
-nav a {
-    color: #de6316;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    transition: 0.3s;
+.products ul {
+    list-style: square;
 }
 
-nav a:hover {
-    opacity: 0.7;
-}
-html {
-    scroll-behavior: smooth;
+/* FOOTER */
+
+footer {
+    background-color: #2c1810;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.logo {
-    width: 120px;
-    height: auto;
-    display: block;
-    margin: 0 auto 15px;
-}
-
-.hero-content {
-    animation: fadeIn 1.5s ease;
-}
+/* ANIMATION */
 
 @keyframes fadeIn {
     from {
@@ -154,7 +155,4 @@ html {
         opacity: 1;
         transform: translateY(0);
     }
-}
-html {
-    scroll-behavior: smooth;
 }
