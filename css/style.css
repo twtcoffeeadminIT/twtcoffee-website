@@ -200,3 +200,11 @@ footer {
 .page-hero p {
     font-size: 1.2rem;
 }
+
+.product-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
