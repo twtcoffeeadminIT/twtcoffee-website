@@ -15,13 +15,42 @@
 <!-- HEADER -->
 
 <header>
-    <img src="images/TWT Logo.png" alt="TWT Coffee Logo" class="logo">
-    <nav>
-        <a href="index.html">Home</a>
+    <nav class="nav-left">
         <a href="about.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="outlets.html">Outlets</a>
-        <a href="merchandise.html">Merchandise</a>
+        <div class="dropdown">
+            <a href="products.html">Products ▼</a>
+            <div class="dropdown-content">
+                <a href="products.html#coffee">Coffee</a>
+                <a href="products.html#dirty-soda">Dirty Soda</a>
+                <a href="products.html#refreshers">Refreshers</a>
+                <a href="products.html#pastries">Pastries</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="outlets.html">Outlets ▼</a>
+            <div class="dropdown-content">
+                <a href="outlets.html#wangsa">Wangsa Maju</a>
+                <a href="outlets.html#jakel">Jakel Mall</a>
+                <a href="outlets.html#future">Future Locations</a>
+            </div>
+        </div>
+    </nav>
+    
+    <a href="index.html">
+        <img src="images/TWT Logo.png"
+             alt="TWT Coffee Logo"
+             class="logo">
+    </a>
+    <nav class="nav-right">
+        <div class="dropdown">
+            <a href="merchandise.html">Merchandise ▼</a>
+            <div class="dropdown-content">
+                <a href="merchandise.html#shirts">T-Shirts</a>
+                <a href="merchandise.html#tumblers">Tumblers</a>
+                <a href="merchandise.html#accessories">Accessories</a>
+            </div>
+        </div>
         <a href="contact.html">Contact</a>
     </nav>
 </header>
